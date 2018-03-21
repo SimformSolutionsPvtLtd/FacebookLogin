@@ -29,8 +29,10 @@ The Reusable Facebook Login Components  for iOS is the easiest way to get data  
 
 ## Usage example
 
+##### Get default data when not passing any argument
+
 ```swift
-example 1(you can get default data when not passing any argument)
+
   LoginManager.shared.loginWithFacebook(controller: self, { (token, error) in
         if error == nil {
             print(token?.userID ?? "",token?.tokenString ?? "")
@@ -45,9 +47,12 @@ example 1(you can get default data when not passing any argument)
         }
      }
   }
-  
-example 2 (get your specific user data with passing argument)
-    LoginManager.shared.loginWithFacebook(permission: [.email,.publicProfile,.userBirthday], requriedFields: [.birthday,.about,.email], controller: self, { (token, error) in
+```  
+##### Get your specific user data with passing argument
+
+```swift    
+
+LoginManager.shared.loginWithFacebook(permission: [.email,.publicProfile,.userBirthday], requriedFields: [.birthday,.about,.email], controller: self, { (token, error) in
         if error == nil {
         print(token?.userID ?? "",token?.tokenString ?? "")
         }
