@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
  
   s.homepage         = 'https://github.com/simformsolutions/FacebookLogin.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Sanjaysinh Chauhan' => 'sanjaysinh.C@simformsolutions.com' }
+  
   s.source           = { :git => 'https://github.com/simformsolutions/FacebookLogin.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
