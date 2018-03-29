@@ -7,10 +7,7 @@
 //
 
 import UIKit
-import FBSDKCoreKit
 import FBSDKLoginKit
-import FBSDKShareKit
-
 
 class LoginManager: NSObject {
     

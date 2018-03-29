@@ -6,7 +6,6 @@ target 'ReuseabelLogInComponets' do
   use_frameworks!
 
   # Pods for ReuseabelLogInComponets
-  pod 'FBSDKCoreKit'
   pod 'FBSDKLoginKit'
-  pod 'FBSDKShareKit'
+
 end
